@@ -23,4 +23,13 @@
         <item>@string/security_settings_fingerprint_sensor_location_left</item>
         <item>@string/security_settings_fingerprint_sensor_location_right</item>
     </string-array>
+
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValuePure" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
 </resources>
