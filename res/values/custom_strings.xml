@@ -25,4 +25,11 @@
     <string name="show_dev_on_custom">You have enabled development settings!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_custom">No need, you have already enabled development settings.</string>
+
+    <!--Derp-CAF Version-->
+    <string name="derp_version">Derp-CAF Version</string>
+    
+    <!--CAF Revision-->
+    <string name="caf_revision">CAF Revision</string>
+
 </resources>
