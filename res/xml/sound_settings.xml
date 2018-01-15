@@ -78,11 +78,19 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
+    <!-- Link ringtone and notification volumes -->
+    <com.derpcaf.derpzone.preferences.SecureSettingSwitchPreference
+        android:key="volume_link_notification"
+        android:title="@string/volume_link_notification_title"
+        android:defaultValue="true"
+        android:order="-139"
+        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
+
     <com.derpcaf.derpzone.preferences.SystemSettingSwitchPreference
         android:key="incall_notifications_vibrate"
         android:title="@string/incall_notifications_vibrate"
         android:summary="@string/incall_notifications_vibrate_summary"
-        android:order="-139"
+        android:order="-138"
         android:defaultValue="false" />
 
     <!-- Also vibrate for calls -->
