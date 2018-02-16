@@ -90,7 +90,7 @@
         android:key="volume_steps"
 	android:title="@string/volume_steps_title"
 	android:summary="@string/volume_steps_summary"
-	android:fragment="com.android.settings.xtended.sound.VolumeSteps"
+	android:fragment="com.android.settings.derpcaf.sound.VolumeSteps"
 	android:order="-120" />
 								
     <!-- Interruptions -->
