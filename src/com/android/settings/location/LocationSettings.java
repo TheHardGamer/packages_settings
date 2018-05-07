@@ -26,7 +26,7 @@ import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.CheckBoxPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.util.Log;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -197,7 +197,7 @@ public class LocationSettings extends DashboardFragment {
         private static final String KEY_ASSISTED_GPS = "assisted_gps";
         private static final String PROPERTIES_FILE = "/etc/gps.conf";
 
-        private CheckBoxPreference mAgpsPreference;
+        private SwitchPreference mAgpsPreference;
 
         public AgpsPreferenceController(Context context) {
             super(context, KEY_ASSISTED_GPS);
@@ -219,7 +219,7 @@ public class LocationSettings extends DashboardFragment {
         public void displayPreference(PreferenceScreen screen) {
             super.displayPreference(screen);
             mAgpsPreference =
-                    (CheckBoxPreference) screen.findPreference(KEY_ASSISTED_GPS);
+                    (SwitchPreference) screen.findPreference(KEY_ASSISTED_GPS);
         }
 
         @Override
