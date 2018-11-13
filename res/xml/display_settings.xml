@@ -104,6 +104,11 @@
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
+    <com.android.settings.display.FontDialogPreference
+            android:key="custom_font"
+            android:title="@string/font_picker_title"
+            android:persistent="false" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
