@@ -27,6 +27,11 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
+    <!-- Changelog -->
+    <Preference android:key="changelog"
+        android:title="@string/changelog_custom_title"
+        android:fragment="com.android.settings.custom.Changelog" />
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
