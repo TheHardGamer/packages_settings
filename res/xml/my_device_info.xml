@@ -30,6 +30,7 @@
     <!-- Changelog -->
     <Preference android:key="changelog"
         android:title="@string/changelog_custom_title"
+        android:order="1"
         android:fragment="com.android.settings.custom.Changelog" />
 
     <!-- Device name -->
