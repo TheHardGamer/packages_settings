@@ -139,6 +139,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.derpcaf.derpzone.DerpZone;
+import com.derpcaf.derpzone.fragments.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -265,7 +266,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             DerpZone.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+	    OmniJawsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
