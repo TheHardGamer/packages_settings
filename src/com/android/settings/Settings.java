@@ -178,4 +178,9 @@ public class Settings extends SettingsActivity {
     public static class SMQQtiFeedbackActivity extends SettingsActivity { /* empty */ }
     public static class DerpZoneActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }    
+    public static class NavigationSettingsActivity extends SettingsActivity {}
+    public static class SmartbarSettingsActivity extends SettingsActivity {}
+    public static class FlingSettingsActivity extends SettingsActivity {}
+    public static class PulseSettingsActivity extends SettingsActivity {}
+
 }
