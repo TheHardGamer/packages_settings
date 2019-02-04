@@ -27,7 +27,6 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import android.app.Fragment;
 import android.content.Context;
 import android.content.FontInfo;
 import android.content.IFontService;
@@ -48,7 +47,7 @@ import android.util.Log;
     private static final String SUBS_PACKAGE = "projekt.substratum";
      private FontDialogPreference mFontPreference;
     private IFontService mFontService;
-     public FontPickerPreferenceController(Context context, Lifecycle lifecycle, Fragment parent) {
+     public FontPickerPreferenceController(Context context, Lifecycle lifecycle) {
         super(context);
         if (lifecycle != null) {
             lifecycle.addObserver(this);
